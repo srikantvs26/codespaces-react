@@ -1,31 +1,47 @@
-.App {
-  text-align: center;
+.site-title {
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  color: #434a54;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (min-width:48em) {
+  .site-title {
+    float: left;
+  }
+
+  .site-nav {
+    float: right;
+  }
+
+  .avatar {
+    margin-bottom: -80px;
+    margin-left: 0px;
+  }
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.cover {
+  border-radius: 10px;
+  background-color: white !important;
 }
 
-.App-link {
-  color: #61dafb;
+.cover-bg {
+  background-color: #4A89DC;
+  border-radius: 10px 10px 0 0;
 }
 
-.heart {
-  color: #ff0000;
+.avatar {
+  max-width: 216px;
+  max-height: 216px;
+  margin-top: 80px;
+  border: 2px solid red;
+  /* text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.small {
-  font-size: 0.75rem;
+.avatar img {
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
