@@ -2,8 +2,15 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './logo.svg';
 import profilePic from './assets/profilePic.jpg';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <>
       <main>
@@ -13,7 +20,7 @@ function App() {
               <div className="row">
                 <div className="col-lg-4 col-md-5">
                   <div
-                    className="avatar p-xxl-1"
+                    className="avatar p-2"
                     data-aos="fade-up"
                     data-aos-easing="ease-in-out"
                     data-aos-once="true"
@@ -30,7 +37,9 @@ function App() {
                   <h1 className="mt-3" data-aos="fade-left" data-aos-delay="0">
                     Srikant V S
                   </h1>
-                  <p data-aos="fade-left" data-aos-delay="100">Senior Software Engineer</p>
+                  <p data-aos="fade-left" data-aos-delay="100">
+                    Senior Software Engineer
+                  </p>
                   <div data-aos="fade-left" data-aos-delay="200">
                     <button type="button" class="btn btn-light mt-3 me-3">
                       Download CV
