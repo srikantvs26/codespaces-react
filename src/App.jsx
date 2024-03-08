@@ -5,6 +5,7 @@ import profilePic from './assets/profilePic.jpg';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Header from './Header';
 
 function App() {
   useEffect(() => {
@@ -13,8 +14,9 @@ function App() {
 
   return (
     <>
+      <Header/>
       <main>
-        <div className="container-lg">
+        <div className="container">
           <div className="cover-page">
             <div className="cover-bg p-4 p-lg-5">
               <div className="row">
@@ -41,10 +43,10 @@ function App() {
                     Senior Software Engineer
                   </p>
                   <div data-aos="fade-left" data-aos-delay="200">
-                    <button type="button" class="btn btn-light mt-3 me-3">
+                    <button type="button" className="btn btn-light mt-3 me-3">
                       Download CV
                     </button>
-                    <button type="button" class="btn btn-info mt-3 text-white">
+                    <button type="button" className="btn btn-info mt-3 text-white">
                       Hire Me
                     </button>
                   </div>
