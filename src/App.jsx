@@ -42,7 +42,7 @@ function App() {
                   <p data-aos="fade-left" data-aos-delay="100" data-aos-once="true">
                     Senior Software Engineer
                   </p>
-                  <div data-aos="fade-left" data-aos-delay="200">
+                  <div data-aos="fade-left" data-aos-delay="200" data-aos-once="true">
                     <button type="button" className="btn btn-light mt-3 me-3">
                       Download CV
                     </button>
