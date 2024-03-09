@@ -36,10 +36,10 @@ function App() {
                   </div>
                 </div>
                 <div className="col-lg-8 col-md-7 text-white text-md-start text-center">
-                  <h1 className="mt-3" data-aos="fade-left" data-aos-delay="0">
+                  <h1 className="mt-3" data-aos="fade-left" data-aos-delay="0" data-aos-once="true">
                     Srikant V S
                   </h1>
-                  <p data-aos="fade-left" data-aos-delay="100">
+                  <p data-aos="fade-left" data-aos-delay="100" data-aos-once="true">
                     Senior Software Engineer
                   </p>
                   <div data-aos="fade-left" data-aos-delay="200">
