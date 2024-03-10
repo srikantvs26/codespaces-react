@@ -27,9 +27,7 @@
     "start": "vite --port 3000",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "test": "vitest"  
   },
   "eslintConfig": {
     "extends": [
