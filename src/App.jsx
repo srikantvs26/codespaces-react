@@ -6,18 +6,19 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Header from './Header';
+import { Footer } from './Footer';
 
 function App() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
-  
+
   return (
     <>
-      <Header/>
+      <Header />
       <main>
         <div className="container">
-          <div className="cover-page">
+          <div className="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
             <div className="cover-bg p-4 p-lg-5">
               <div className="row">
                 <div className="col-lg-4 col-md-5">
@@ -36,17 +37,33 @@ function App() {
                   </div>
                 </div>
                 <div className="col-lg-8 col-md-7 text-white text-md-start text-center">
-                  <h1 className="mt-3" data-aos="fade-left" data-aos-delay="0" data-aos-once="true">
+                  <h1
+                    className="mt-3"
+                    data-aos="fade-left"
+                    data-aos-delay="0"
+                    data-aos-once="true"
+                  >
                     Srikant V S
                   </h1>
-                  <p data-aos="fade-left" data-aos-delay="100" data-aos-once="true">
+                  <p
+                    data-aos="fade-left"
+                    data-aos-delay="100"
+                    data-aos-once="true"
+                  >
                     Senior Software Engineer
                   </p>
-                  <div data-aos="fade-left" data-aos-delay="200" data-aos-once="true">
+                  <div
+                    data-aos="fade-left"
+                    data-aos-delay="200"
+                    data-aos-once="true"
+                  >
                     <button type="button" className="btn btn-light mt-3 me-3">
                       Download CV
                     </button>
-                    <button type="button" className="btn btn-info mt-3 text-white">
+                    <button
+                      type="button"
+                      className="btn btn-info mt-3 text-white"
+                    >
                       Hire Me
                     </button>
                   </div>
@@ -57,6 +74,7 @@ function App() {
           </div>
         </div>
       </main>
+      <Footer/>
     </>
   );
 }
