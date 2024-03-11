@@ -1,12 +1,12 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from './logo.svg';
-import profilePic from './assets/profilePic.jpg';
-import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import Header from './Header';
-import { Footer } from './Footer';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import logo from "./logo.svg";
+import profilePic from "./assets/profilePic.jpg";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Header from "./Header";
+import { Footer } from "./Footer";
 
 function App() {
   useEffect(() => {
@@ -33,6 +33,7 @@ function App() {
                       alt="profile picture"
                       height="200"
                       width="200"
+                      className="img-fluid rounded"
                     />
                   </div>
                 </div>
@@ -70,9 +71,9 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="row m-5">
+            <div className="row mt-md-5 mt-lg-3">
               <div className="col-lg-6">
-                <h2 className="text-dark">About Me</h2>
+                <p className="text-dark fs-3 fw-normal">About Me</p>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
                   adipisci magni. Quam provident, ipsa repellendus corrupti
@@ -84,7 +85,7 @@ function App() {
                 <div className="row">
                   <div className="col-lg-9 offset-lg-3">
                     <div className="table-responsive">
-                      <table className="table">
+                      <table className="table table-borderless">
                         <tbody>
                           <tr>
                             <th scope="row">Email</th>
@@ -120,9 +121,9 @@ function App() {
               </div>
             </div>
             <hr />
-            <div className="row m-5">
-              <div className="col-lg-12 mb-3">
-                <h2>Professional Skills</h2>{' '}
+            <div className="row">
+              <div className="col-lg-12">
+                <p className="text-dark fs-3 fw-normal">Professional Skills</p>
               </div>
               <div className="col-lg-6">
                 <div className="mb-2">
@@ -137,7 +138,7 @@ function App() {
                   >
                     <div
                       class="progress-bar bg-success"
-                      style={{ width: '80%' }}
+                      style={{ width: "80%" }}
                       data-aos="zoom-in-right"
                       data-aos-delay="100"
                       data-aos-once="true"
@@ -157,7 +158,7 @@ function App() {
                   >
                     <div
                       class="progress-bar bg-success"
-                      style={{ width: '90%' }}
+                      style={{ width: "90%" }}
                       data-aos="zoom-in-right"
                       data-aos-delay="200"
                       data-aos-once="true"
@@ -177,7 +178,7 @@ function App() {
                   >
                     <div
                       class="progress-bar bg-success"
-                      style={{ width: '85%' }}
+                      style={{ width: "85%" }}
                       data-aos="zoom-in-right"
                       data-aos-delay="300"
                       data-aos-once="true"
