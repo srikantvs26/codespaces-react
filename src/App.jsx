@@ -18,7 +18,7 @@ function App() {
       <Header />
       <main>
         <div className="container">
-          <div className="shadow-lg p-3 mb-5 bg-white rounded">
+          <div className="shadow-lg p-5 mb-5 bg-white rounded">
             <div className="cover-bg p-4 p-lg-5">
               <div className="row">
                 <div className="col-lg-4 col-md-5">
@@ -75,10 +75,13 @@ function App() {
               <div className="col-lg-6">
                 <p className="text-dark fs-3 fw-normal">About Me</p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
-                  adipisci magni. Quam provident, ipsa repellendus corrupti
-                  tenetur dicta illo sint. Aliquam ad perferendis eveniet
-                  nesciunt tempore quae pariatur maiores eaque?
+                  Hello! I’m Srikant V S. I am passionate about Software
+                  Development with no boundaries in tech. I am skilled in
+                  building highly scalable applications by leading team of
+                  engineers and working with business stakeholders.I have built
+                  and architected solutions using Java, Spring Boot, AWS,Mongo ,
+                  Cassandra, Reddis, MicroServices, Kafka, React,Terraform, ELK
+                  & DevOps.
                 </p>
               </div>
               <div className="col-lg-6">
@@ -137,7 +140,7 @@ function App() {
                     aria-valuemax="100"
                   >
                     <div
-                      class="progress-bar bg-success"
+                      className="progress-bar bg-success"
                       style={{ width: "80%" }}
                       data-aos="zoom-in-right"
                       data-aos-delay="100"
@@ -157,7 +160,7 @@ function App() {
                     aria-valuemax="100"
                   >
                     <div
-                      class="progress-bar bg-success"
+                      className="progress-bar bg-success"
                       style={{ width: "90%" }}
                       data-aos="zoom-in-right"
                       data-aos-delay="200"
@@ -177,7 +180,7 @@ function App() {
                     aria-valuemax="100"
                   >
                     <div
-                      class="progress-bar bg-success"
+                      className="progress-bar bg-success"
                       style={{ width: "85%" }}
                       data-aos="zoom-in-right"
                       data-aos-delay="300"
@@ -187,7 +190,106 @@ function App() {
                 </div>
               </div>
               <div className="col-lg-6">
-                <h3>...</h3>
+                <div className="mb-2">
+                  <span>AWS</span>
+                  <div
+                    className="progress my-2"
+                    role="progressbar"
+                    aria-label="Success example"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      className="progress-bar "
+                      style={{ width: "80%" }}
+                      data-aos="zoom-in-right"
+                      data-aos-delay="100"
+                      data-aos-once="true"
+                    ></div>
+                  </div>
+                </div>
+
+                <div className="mb-2">
+                  <span>Multithreading</span>
+                  <div
+                    className="progress  my-2"
+                    role="progressbar"
+                    aria-label="Success example"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      className="progress-bar "
+                      style={{ width: "90%" }}
+                      data-aos="zoom-in-right"
+                      data-aos-delay="200"
+                      data-aos-once="true"
+                    ></div>
+                  </div>
+                </div>
+
+                <div>
+                  <span>DevOps</span>
+                  <div
+                    className="progress  my-2"
+                    role="progressbar"
+                    aria-label="Success example"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      className="progress-bar"
+                      style={{ width: "85%" }}
+                      data-aos="zoom-in-right"
+                      data-aos-delay="300"
+                      data-aos-once="true"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr />
+            <div className="row">
+              <div className="col-lg-12">
+                <p className="text-dark fs-3 fw-normal">Work Experience</p>
+                <div className="timeline border-start border-2">
+                  <div className="card ms-lg-5 ms-sm-5 ps-5 border-left shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+                    <div className="card-body m-3">
+                      <h4 className="card-title">
+                        Senior Software Engineer
+                        <span className="text-muted"> at BGSW</span>
+                      </h4>
+                      <h6 className="card-subtitle mb-2 text-body-secondary mb-3">
+                        July 2022 - Present
+                      </h6>
+                      <p className="card-text">
+                        <ul>
+                          <li>
+                            Integrating Various Lenders which brought business
+                            of more than 200cr.
+                          </li>
+                          <li>
+                            Leading team of software engineers and designing
+                            solutions with them .
+                          </li>
+                          <li>
+                            Architected and refactored the existing Bureau
+                            Integration like CIBIL , EquiFax , Experian and
+                            brought down latency drastically ..
+                          </li>
+                          <li>
+                            Brought in Cassandra Database and integrated with
+                            multiple services to bring down the load on main
+                            services..
+                          </li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
