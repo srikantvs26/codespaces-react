@@ -1,12 +1,12 @@
-import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import logo from "./logo.svg";
-import profilePic from "./assets/profilePic.jpg";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Header from "./Header";
-import { Footer } from "./Footer";
+import './App.css';
+import './scss/styles.scss';
+import logo from './logo.svg';
+import profilePic from './assets/profilePic.jpg';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Header from './Header';
+import { Footer } from './Footer';
 
 function App() {
   useEffect(() => {
@@ -141,7 +141,7 @@ function App() {
                   >
                     <div
                       className="progress-bar bg-success"
-                      style={{ width: "80%" }}
+                      style={{ width: '80%' }}
                       data-aos="zoom-in-right"
                       data-aos-delay="100"
                       data-aos-once="true"
@@ -161,7 +161,7 @@ function App() {
                   >
                     <div
                       className="progress-bar bg-success"
-                      style={{ width: "90%" }}
+                      style={{ width: '90%' }}
                       data-aos="zoom-in-right"
                       data-aos-delay="200"
                       data-aos-once="true"
@@ -181,7 +181,7 @@ function App() {
                   >
                     <div
                       className="progress-bar bg-success"
-                      style={{ width: "85%" }}
+                      style={{ width: '85%' }}
                       data-aos="zoom-in-right"
                       data-aos-delay="300"
                       data-aos-once="true"
@@ -202,7 +202,7 @@ function App() {
                   >
                     <div
                       className="progress-bar "
-                      style={{ width: "80%" }}
+                      style={{ width: '80%' }}
                       data-aos="zoom-in-right"
                       data-aos-delay="100"
                       data-aos-once="true"
@@ -222,7 +222,7 @@ function App() {
                   >
                     <div
                       className="progress-bar "
-                      style={{ width: "90%" }}
+                      style={{ width: '90%' }}
                       data-aos="zoom-in-right"
                       data-aos-delay="200"
                       data-aos-once="true"
@@ -242,7 +242,7 @@ function App() {
                   >
                     <div
                       className="progress-bar"
-                      style={{ width: "85%" }}
+                      style={{ width: '85%' }}
                       data-aos="zoom-in-right"
                       data-aos-delay="300"
                       data-aos-once="true"
@@ -265,7 +265,7 @@ function App() {
                       <h6 className="card-subtitle mb-2 text-body-secondary mb-3">
                         July 2022 - Present
                       </h6>
-                      <p className="card-text">
+                      <div className="card-text">
                         <ul>
                           <li>
                             Integrating Various Lenders which brought business
@@ -286,7 +286,7 @@ function App() {
                             services..
                           </li>
                         </ul>
-                      </p>
+                      </div>
                     </div>
                   </div>
                 </div>

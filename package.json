@@ -9,6 +9,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@popperjs/core": "^2.11.8",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
@@ -27,7 +28,7 @@
     "start": "vite --port 3000",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest"  
+    "test": "vitest"
   },
   "eslintConfig": {
     "extends": [
@@ -51,6 +52,7 @@
     "@vitejs/plugin-react": "^4.1.1",
     "gh-pages": "^6.1.1",
     "jsdom": "^22.1.0",
+    "sass": "^1.71.1",
     "vite": "^4.5.2",
     "vitest": "^0.34.6"
   }
