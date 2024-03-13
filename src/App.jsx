@@ -64,7 +64,7 @@ function App() {
                     </button>
                     <button
                       type="button"
-                      className="btn btn-info mt-3 text-white"
+                      className="btn btn-bd-primary mt-3 text-white"
                     >
                       Hire Me
                     </button>
