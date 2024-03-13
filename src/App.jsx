@@ -257,6 +257,10 @@ function App() {
               <div className="col-lg-12">
                 <WorkXp />
               </div>
+              <hr />
+              <div className="col-lg-12">
+                <h1>...</h1>
+              </div>
             </div>
           </div>
         </div>

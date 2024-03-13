@@ -4,7 +4,7 @@ function WorkXp() {
       <p className="text-dark fs-3 fw-normal">Work Experience</p>
       <div className="timeline border-start border-2">
         {/* <div className="card-group mb-5"> */}
-        <div className="card ms-5 mb-5 border-left shadow-sm bg-body-tertiary rounded">
+        <div className="card ms-5 mb-5 border-left shadow-sm bg-body-tertiary rounded linker">
           <div className="card-body m-3">
             <h4 className="card-title">
               Senior Software Engineer
@@ -37,7 +37,7 @@ function WorkXp() {
           </div>
         </div>
 
-        <div className="card ms-5 mb-5 border-left shadow-sm bg-body-tertiary rounded">
+        <div className="card ms-5 mb-5 border-left shadow-sm bg-body-tertiary rounded linker">
           <div className="card-body m-3">
             <h4 className="card-title">
               Project Engineer

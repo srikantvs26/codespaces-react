@@ -39,3 +39,29 @@
 .border-left {
   border-left: 4px solid #0d6efd !important;
 }
+
+.card::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border: 3px solid;
+  border-radius: 10px;
+  border-color: #0d6efd;
+
+  position: absolute;
+  top: 30px;
+  left: -60px;
+  z-index: 2;
+}
+
+.card::after {
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: #0d6efd;
+  position: absolute;
+  top: 35px;
+  left: -60px;
+  z-index: 1;
+}
