@@ -1,12 +1,13 @@
-import './App.css';
-import './scss/styles.scss';
-import logo from './logo.svg';
-import profilePic from './assets/profilePic.jpg';
-import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import Header from './Header';
-import { Footer } from './Footer';
+import "./App.css";
+import "./scss/styles.scss";
+import logo from "./logo.svg";
+import profilePic from "./assets/profilePic.jpg";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Header from "./Header";
+import { Footer } from "./Footer";
+import WorkXp from "./components/WorkXp";
 
 function App() {
   useEffect(() => {
@@ -18,7 +19,7 @@ function App() {
       <Header />
       <main>
         <div className="container">
-          <div className="shadow-lg p-5 mb-5 bg-white rounded">
+          <div className="shadow-lg p-3 mb-5 bg-white rounded">
             <div className="cover-bg p-4 p-lg-5">
               <div className="row">
                 <div className="col-lg-4 col-md-5">
@@ -141,7 +142,7 @@ function App() {
                   >
                     <div
                       className="progress-bar bg-success"
-                      style={{ width: '80%' }}
+                      style={{ width: "80%" }}
                       data-aos="zoom-in-right"
                       data-aos-delay="100"
                       data-aos-once="true"
@@ -161,7 +162,7 @@ function App() {
                   >
                     <div
                       className="progress-bar bg-success"
-                      style={{ width: '90%' }}
+                      style={{ width: "90%" }}
                       data-aos="zoom-in-right"
                       data-aos-delay="200"
                       data-aos-once="true"
@@ -181,7 +182,7 @@ function App() {
                   >
                     <div
                       className="progress-bar bg-success"
-                      style={{ width: '85%' }}
+                      style={{ width: "85%" }}
                       data-aos="zoom-in-right"
                       data-aos-delay="300"
                       data-aos-once="true"
@@ -202,7 +203,7 @@ function App() {
                   >
                     <div
                       className="progress-bar "
-                      style={{ width: '80%' }}
+                      style={{ width: "80%" }}
                       data-aos="zoom-in-right"
                       data-aos-delay="100"
                       data-aos-once="true"
@@ -222,7 +223,7 @@ function App() {
                   >
                     <div
                       className="progress-bar "
-                      style={{ width: '90%' }}
+                      style={{ width: "90%" }}
                       data-aos="zoom-in-right"
                       data-aos-delay="200"
                       data-aos-once="true"
@@ -242,7 +243,7 @@ function App() {
                   >
                     <div
                       className="progress-bar"
-                      style={{ width: '85%' }}
+                      style={{ width: "85%" }}
                       data-aos="zoom-in-right"
                       data-aos-delay="300"
                       data-aos-once="true"
@@ -254,42 +255,7 @@ function App() {
             <hr />
             <div className="row">
               <div className="col-lg-12">
-                <p className="text-dark fs-3 fw-normal">Work Experience</p>
-                <div className="timeline border-start border-2">
-                  <div className="card ms-lg-5 ms-sm-5 ps-5 border-left shadow-sm p-3 mb-5 bg-body-tertiary rounded">
-                    <div className="card-body m-3">
-                      <h4 className="card-title">
-                        Senior Software Engineer
-                        <span className="text-muted"> at BGSW</span>
-                      </h4>
-                      <h6 className="card-subtitle mb-2 text-body-secondary mb-3">
-                        July 2022 - Present
-                      </h6>
-                      <div className="card-text">
-                        <ul>
-                          <li>
-                            Integrating Various Lenders which brought business
-                            of more than 200cr.
-                          </li>
-                          <li>
-                            Leading team of software engineers and designing
-                            solutions with them .
-                          </li>
-                          <li>
-                            Architected and refactored the existing Bureau
-                            Integration like CIBIL , EquiFax , Experian and
-                            brought down latency drastically ..
-                          </li>
-                          <li>
-                            Brought in Cassandra Database and integrated with
-                            multiple services to bring down the load on main
-                            services..
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <WorkXp />
               </div>
             </div>
           </div>
