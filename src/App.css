@@ -66,7 +66,7 @@
   z-index: 1;
 }
 
-a,img,button:hover {
-  transform: translateY(-2px);
+a:hover,img:hover,button:hover {
+  transform: translateY(-1.3px);
   transition: transform 0.3s ease; /* Move the button 3px up */
 }
