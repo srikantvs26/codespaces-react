@@ -1,13 +1,17 @@
-import "./App.css";
-import "./scss/styles.scss";
-import logo from "./logo.svg";
-import profilePic from "./assets/profilePic.jpg";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import Header from "./Header";
-import { Footer } from "./Footer";
-import WorkXp from "./components/WorkXp";
+import './App.css';
+import './scss/styles.scss';
+import logo from './logo.svg';
+import profilePic from './assets/profilePic.jpg';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Header from './Header';
+import { Footer } from './Footer';
+import WorkXp from './components/WorkXp';
+import Education from './components/Education';
+import Contact from './components/Contact';
+import Address from './components/Address';
+import resume from './assets/right_resume.pdf'
 
 function App() {
   useEffect(() => {
@@ -19,7 +23,7 @@ function App() {
       <Header />
       <main>
         <div className="container">
-          <div className="shadow-lg p-3 mb-5 bg-white rounded">
+          <div className="shadow-lg p-3 bg-white rounded">
             <div className="cover-bg p-4 p-lg-5">
               <div className="row">
                 <div className="col-lg-4 col-md-5">
@@ -59,15 +63,16 @@ function App() {
                     data-aos-delay="200"
                     data-aos-once="true"
                   >
-                    <button type="button" className="btn btn-light mt-3 me-3">
+                    <a type="button" className="btn btn-light mt-3 me-3" target='_blank' href={resume}>
                       Download CV
-                    </button>
-                    <button
+                    </a>
+                    <a
                       type="button"
                       className="btn btn-bd-primary mt-3 text-white"
+                      href='#contact'
                     >
                       Hire Me
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -142,7 +147,7 @@ function App() {
                   >
                     <div
                       className="progress-bar bg-success"
-                      style={{ width: "80%" }}
+                      style={{ width: '80%' }}
                       data-aos="zoom-in-right"
                       data-aos-delay="100"
                       data-aos-once="true"
@@ -162,7 +167,7 @@ function App() {
                   >
                     <div
                       className="progress-bar bg-success"
-                      style={{ width: "90%" }}
+                      style={{ width: '90%' }}
                       data-aos="zoom-in-right"
                       data-aos-delay="200"
                       data-aos-once="true"
@@ -182,7 +187,7 @@ function App() {
                   >
                     <div
                       className="progress-bar bg-success"
-                      style={{ width: "85%" }}
+                      style={{ width: '85%' }}
                       data-aos="zoom-in-right"
                       data-aos-delay="300"
                       data-aos-once="true"
@@ -203,7 +208,7 @@ function App() {
                   >
                     <div
                       className="progress-bar "
-                      style={{ width: "80%" }}
+                      style={{ width: '80%' }}
                       data-aos="zoom-in-right"
                       data-aos-delay="100"
                       data-aos-once="true"
@@ -223,7 +228,7 @@ function App() {
                   >
                     <div
                       className="progress-bar "
-                      style={{ width: "90%" }}
+                      style={{ width: '90%' }}
                       data-aos="zoom-in-right"
                       data-aos-delay="200"
                       data-aos-once="true"
@@ -243,7 +248,7 @@ function App() {
                   >
                     <div
                       className="progress-bar"
-                      style={{ width: "85%" }}
+                      style={{ width: '85%' }}
                       data-aos="zoom-in-right"
                       data-aos-delay="300"
                       data-aos-once="true"
@@ -259,7 +264,16 @@ function App() {
               </div>
               <hr />
               <div className="col-lg-12">
-                <h1>...</h1>
+                <Education />
+              </div>
+            </div>
+            <hr />
+            <div className="row mb-3">
+              <div className="col-lg-7">
+               <Contact/>
+              </div>
+              <div className="col-lg-5">
+               <Address/>
               </div>
             </div>
           </div>

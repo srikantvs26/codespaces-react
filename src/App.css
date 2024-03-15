@@ -65,3 +65,8 @@
   left: -60px;
   z-index: 1;
 }
+
+a,img,button:hover {
+  transform: translateY(-2px);
+  transition: transform 0.3s ease; /* Move the button 3px up */
+}
