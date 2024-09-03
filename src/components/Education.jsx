@@ -19,7 +19,7 @@ function WorkXp() {
             <div className="card-text">
               <p>
                 Completed Bachelor's degree securing First Class with
-                Distinction
+                Distinction.
               </p>
             </div>
           </div>

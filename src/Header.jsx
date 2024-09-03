@@ -52,7 +52,7 @@ function Header() {
               />
             </a>
           </li>
-          <li
+          {/* <li
             className="nav-item"
             data-aos="fade-right"
             data-aos-delay="0"
@@ -71,7 +71,7 @@ function Header() {
                 style={{ color: '#000000' }}
               />
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </header>

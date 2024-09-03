@@ -63,7 +63,7 @@ function App() {
                     data-aos-delay="200"
                     data-aos-once="true"
                   >
-                    <a type="button" className="btn btn-light mt-3 me-3" target='_blank' href={resume}>
+                    <a type="button" className="btn btn-light mt-3 me-3" target='_blank' href="https://drive.google.com/file/d/14BCAgOEHGK_qf95yjo6V-E60g45FhceD/view?usp=sharing">
                       Download CV
                     </a>
                     <a
@@ -85,9 +85,7 @@ function App() {
                   Development with no boundaries in tech. I am skilled in
                   building highly scalable applications by leading team of
                   engineers and working with business stakeholders.I have built
-                  and architected solutions using Java, Spring Boot, AWS,Mongo ,
-                  Cassandra, Reddis, MicroServices, Kafka, React,Terraform, ELK
-                  & DevOps.
+                  and architected solutions using Java, Spring Boot, Docker and Microservices.
                 </p>
               </div>
               <div className="col-lg-6">
@@ -146,8 +144,8 @@ function App() {
                     aria-valuemax="100"
                   >
                     <div
-                      className="progress-bar bg-success"
-                      style={{ width: '80%' }}
+                      className="progress-bar bg-primary"
+                      style={{ width: '90%' }}
                       data-aos="zoom-in-right"
                       data-aos-delay="100"
                       data-aos-once="true"
@@ -166,8 +164,8 @@ function App() {
                     aria-valuemax="100"
                   >
                     <div
-                      className="progress-bar bg-success"
-                      style={{ width: '90%' }}
+                      className="progress-bar bg-primary"
+                      style={{ width: '75%' }}
                       data-aos="zoom-in-right"
                       data-aos-delay="200"
                       data-aos-once="true"
@@ -186,8 +184,8 @@ function App() {
                     aria-valuemax="100"
                   >
                     <div
-                      className="progress-bar bg-success"
-                      style={{ width: '85%' }}
+                      className="progress-bar bg-primary"
+                      style={{ width: '70%' }}
                       data-aos="zoom-in-right"
                       data-aos-delay="300"
                       data-aos-once="true"
@@ -197,7 +195,7 @@ function App() {
               </div>
               <div className="col-lg-6">
                 <div className="mb-2">
-                  <span>AWS</span>
+                  <span>Docker</span>
                   <div
                     className="progress my-2"
                     role="progressbar"
@@ -208,7 +206,7 @@ function App() {
                   >
                     <div
                       className="progress-bar "
-                      style={{ width: '80%' }}
+                      style={{ width: '90%' }}
                       data-aos="zoom-in-right"
                       data-aos-delay="100"
                       data-aos-once="true"
@@ -217,7 +215,7 @@ function App() {
                 </div>
 
                 <div className="mb-2">
-                  <span>Multithreading</span>
+                  <span>Problem Solving</span>
                   <div
                     className="progress  my-2"
                     role="progressbar"
@@ -237,7 +235,7 @@ function App() {
                 </div>
 
                 <div>
-                  <span>DevOps</span>
+                  <span>Debugging</span>
                   <div
                     className="progress  my-2"
                     role="progressbar"
