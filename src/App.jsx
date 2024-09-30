@@ -154,7 +154,7 @@ function App() {
                 </div>
 
                 <div className="mb-2">
-                  <span>Spring Boot</span>
+                  <span>Spring Cloud</span>
                   <div
                     className="progress  my-2"
                     role="progressbar"
@@ -215,7 +215,7 @@ function App() {
                 </div>
 
                 <div className="mb-2">
-                  <span>Problem Solving</span>
+                  <span>Kubernetes</span>
                   <div
                     className="progress  my-2"
                     role="progressbar"
@@ -235,7 +235,7 @@ function App() {
                 </div>
 
                 <div>
-                  <span>Debugging</span>
+                  <span>Multithreading</span>
                   <div
                     className="progress  my-2"
                     role="progressbar"
